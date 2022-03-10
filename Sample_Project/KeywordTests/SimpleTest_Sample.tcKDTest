@@ -27,7 +27,7 @@
 				<Data Comment="This is a sample of what a keyword test looks like within TestComplete after a recording has been done. Please feel free to tinker with the steps and the values within them!&#13;&#10;Test case: Search for an item on the website, add to cart, validate the price of the item, close the browser.&#13;&#10;Click &apos;Run Test&apos; above to execute this test." />
 			</Operation>
 			<Operation Type="{98EACF50-FA7B-4595-8EDC-4C0B21157A52}">
-				<Data Description="This step opens a browser and navigates to a webpage&#13;&#10;&#9;&#9;&#9;" DescriptionEdited="True" BrowserName="iexplore">
+				<Data Description="This step opens a browser and navigates to a webpage&#13;&#10;&#9;&#9;&#9;" DescriptionEdited="True" BrowserName="firefox">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="URL" DefVarType="8" DefValueType="6" DefValueValue="" VarType="8" ValueType="6" ValueValue="https://services.smartbear.com/samples/TestComplete14/smartstore" />
 						<Parameter Name="PageLoadWaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
