@@ -12,12 +12,7 @@
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{4C908988-B400-4D9E-8AEF-28A8CB0A8850}" version="14">
 		<children>
-			<testItem name="Simple test" key="{51489E18-D185-459E-80E9-676AB3468889}" group="False" parallel="False" enabled="True" testMoniker="KDT\{018273D5-6804-4AB5-9002-CBDC098F8154}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
-				<testParameters />
-				<environments activeCloud="CBT" />
-				<children />
-			</testItem>
-			<testItem name="Browser loop sample" key="{B189CACD-57CD-4762-9BA7-FCAF6B82FF2C}" group="False" parallel="False" enabled="False" testMoniker="KDT\{1C53CA03-245F-4377-BE17-539542934781}" count="1" timeout="2" stopOnError="1" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="Simple test" key="{51489E18-D185-459E-80E9-676AB3468889}" group="False" parallel="False" enabled="False" testMoniker="KDT\{018273D5-6804-4AB5-9002-CBDC098F8154}" count="1" timeout="0" stopOnError="2" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<environments activeCloud="CBT" />
 				<children />
@@ -31,7 +26,7 @@
 	</testItems>
 	<variables key="{0C015601-3A93-406D-8417-4ABD70BC27DD}" />
 	<settings key="{6090ADE0-6B46-4869-938B-27D6FC11ECF5}">
-		<settingsVersion value="15.0" />
+		<settingsVersion value="15.31" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -60,6 +55,8 @@
 		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
+		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
+		<setting name="BitBar_FindIOSDevice" type="5" value="( Device Group As in Selected Device )" />
 		<setting name="BitBar_HUBURL" type="5" value="https://appium.bitbar.com/wd/hub/" />
 		<setting name="BitBar_NewCommandTimeout" type="2" value="300" />
 		<setting name="CBT_AppsAvailability" type="6" rowIndex="0" colIndex="0">
@@ -676,8 +673,8 @@
 				<column type="5" enabled="True" />
 			</columns>
 			<data>
-				<row val0="Zephyr for Jira Server" />
-				<row val0="Zephyr for Jira Cloud" />
+				<row val0="Zephyr Squad Server" />
+				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
 		<setting name="ZFJ_JiraLogin" type="5" value="" />
